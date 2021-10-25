@@ -1,0 +1,98 @@
+/* navbar */
+
+.navContainer{
+    width: 100vw;   
+}
+
+.navBar{
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(106, 197, 141);
+    padding: 5px;
+    padding-inline: 35px;
+}
+
+/* menu */
+
+.menuContainer{
+    width: 40px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.menuContainer:hover{
+    background-color: rgb(88, 165, 118);
+    transition: 0s;
+}
+
+.menu{
+    height: 25px;
+    width: 25px;
+    display: block;
+    background: url("./icons/icons8-menu-24.png");
+    /* background-color: gold; */
+}
+
+/* logo */
+
+.logoContainer{
+    width: auto;
+    height: auto;
+    /* background-color: hotpink; */
+    cursor:default;
+}
+
+.logoContainer h2{
+    margin: 0px;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* coin  */
+
+.coinContainer{
+    width: auto;
+    height: auto;
+    position: relative;
+    /* background-color: grey; */
+    /* padding: 5px; */
+    cursor: default;
+}
+
+.coinBalance{
+    width: 50px;
+    height: 28px;
+    background-color: rgb(88, 165, 118);
+    padding-left: 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 1px rgb(73, 138, 99);
+}
+
+.coinIcon{
+    width: 35px;
+    height: 35px;
+    background-color: gold;
+    border-radius: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -4px;
+    color: rgb(172, 146, 0);
+    font-size: large;
+    font-weight: bolder;
+    box-shadow: -1px 1px 1px rgb(112, 95, 0);
+}
