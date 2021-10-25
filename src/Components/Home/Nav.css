@@ -34,7 +34,7 @@
 }
 
 .menuContainer:active{
-    background-color: white;
+    background-color: rgb(219, 219, 219);
     transition: 0s;
 }
 
