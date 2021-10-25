@@ -1,0 +1,14 @@
+/* Side Nav */
+
+.sideNavContainer {
+  width: 18vw;
+  height: 100vh;
+  background-color: rgb(201, 107, 107);
+  /* border: 1px solid green; */
+  position: absolute;
+  left: -18vw;
+}
+
+.sideNavSlider {
+  left: 0px;
+}

@@ -3,6 +3,8 @@
 .navContainer{
     width: 100vw;  
     user-select: none; 
+    position: fixed;
+    z-index: 1;
 }
 
 .navBar{
