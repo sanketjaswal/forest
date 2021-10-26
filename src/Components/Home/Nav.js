@@ -7,10 +7,13 @@ export const Nav = () => {
 
   const sideNavSlider = () => {
     if (slider === "off") {
-      console.log("on");
+      document.getElementById("menu").classList.remove("menuIcon1");
+      document.getElementById("menu").classList.add("menuIcon2");
       document.getElementsByClassName("sideNavContainer")[0].style.left = 0;
       slider = "on";
     } else if (slider === "on") {
+      document.getElementById("menu").classList.remove("menuIcon2");
+      document.getElementById("menu").classList.add("menuIcon1");
       document.getElementsByClassName("sideNavContainer")[0].style.left =
         "-19vw";
       slider = "off";
@@ -20,7 +23,7 @@ export const Nav = () => {
     <div className="navContainer">
       <div className="navBar">
         <div className="menuContainer" onClick={sideNavSlider}>
-          <span className="menu"></span>
+          <span id="menu" className="menuIcon1"></span>
         </div>
         <div className="logoContainer">
           <h2>Forest</h2>

@@ -40,13 +40,22 @@
     transition: 0s;
 }
 
-.menu{
+#menu{
     height: 25px;
     width: 25px;
     display: block;
-    background: url("./icons/icons8-menu-24.png");
-    /* background-color: gold; */
+    /* icons8-delete-24.png */
+    transition: 1s;
 }
+
+.menuIcon1{
+    background-image: url("./icons/icons8-menu-24.png");
+}
+
+.menuIcon2{
+    background-image: url("./icons/icons8-delete-24.png");
+}
+
 
 /* logo */
 
