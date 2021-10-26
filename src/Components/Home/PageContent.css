@@ -1,9 +1,48 @@
 
-.PageContentContainer{
+.pageContentContainer{
     width: 100vw;
     height:100vh;
     background-color: rgb(204, 255, 221);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.circleContainer{
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    background-color: rgb(208, 255, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insideCircle{
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    background-color: rgb(222, 255, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.soilTop{
+    width: 95%;
+    height: 15%;
+    border-radius: 50%;
+    background-color: rgb(63, 30, 0);
+    z-index: 1;
+}
+
+.soilBottom{
+    width: 95%;
+    height: 47%;
+    border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    background-color: rgb(36, 17, 0);
+    bottom: 7px;
+    position: absolute;
 }
