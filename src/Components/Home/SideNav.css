@@ -4,8 +4,7 @@
   width: 19vw;
   height: 100vh;
   background-color: rgb(248, 44, 44);
-  background: linear-gradient(to bottom ,rgb(107, 201, 143),white);
-  /* border: 1px solid green; */
+  background: linear-gradient(to bottom ,rgb(107, 201, 143),rgb(204, 255, 221));
   position: absolute;
   left: -19vw;
   transition: 0.5s;

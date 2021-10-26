@@ -1,0 +1,9 @@
+
+.PageContentContainer{
+    width: 100vw;
+    height:100vh;
+    background-color: rgb(204, 255, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
