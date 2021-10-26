@@ -1,12 +1,14 @@
 /* Side Nav */
 
 .sideNavContainer {
-  width: 18vw;
+  width: 19vw;
   height: 100vh;
-  background-color: rgb(201, 107, 107);
+  background-color: rgb(248, 44, 44);
+  background: linear-gradient(to bottom ,rgb(107, 201, 143),white);
   /* border: 1px solid green; */
   position: absolute;
-  left: -18vw;
+  left: -19vw;
+  transition: 0.5s;
 }
 
 .sideNavSlider {
