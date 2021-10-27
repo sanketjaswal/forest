@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-.circleContainer{
+.plantPotContainer{
     width: 240px;
     height: 240px;
     border-radius: 100%;
@@ -18,7 +18,7 @@
     align-items: center;
 }
 
-.insideCircle{
+.plantPotCircle{
     width: 220px;
     height: 220px;
     border-radius: 100%;
