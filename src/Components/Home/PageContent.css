@@ -33,7 +33,7 @@
     width: 95%;
     height: 15%;
     border-radius: 50%;
-    background-color: rgb(63, 30, 0);
+    background-color: rgba(63, 30, 0, 0.418);
     z-index: 1;
 }
 
