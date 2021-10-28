@@ -10,6 +10,9 @@ export const PageContent = () => {
           <div className="soilBottom"></div>
         </div>
       </div>
+      <div className="timerContainer">
+        <span>00:00</span>
+      </div>
     </div>
   );
 };

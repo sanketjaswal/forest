@@ -4,6 +4,7 @@
     height:100vh;
     background-color: rgb(204, 255, 221);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -33,7 +34,7 @@
     width: 95%;
     height: 15%;
     border-radius: 50%;
-    background-color: rgba(63, 30, 0, 0.418);
+    background-color: rgb(63, 30, 0);
     z-index: 1;
 }
 
@@ -45,4 +46,22 @@
     background-color: rgb(36, 17, 0);
     bottom: 7px;
     position: absolute;
+}
+
+/* timer */
+
+.timerContainer{
+    width: 20%;
+    height: 20%;
+    margin: 2%;
+    background-color: rgba(100, 100, 100, 0.096);
+    border-radius: 20px;
+    /* border: 1px solid rgb(108, 219, 150); */
+    box-shadow: inset 0px 0px 5px rgba(108, 219, 151, 0.815);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: rgb(70, 70, 70);
+    font-size: 450%;
 }
