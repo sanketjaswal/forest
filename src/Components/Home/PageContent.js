@@ -11,7 +11,7 @@ export const PageContent = () => {
         </div>
       </div>
       <div className="timerContainer">
-        <span>00:00</span>
+        <span>10:00</span>
       </div>
     </div>
   );
